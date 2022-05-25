@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap');
+.bg{
+    background-image: url('/public/images/300707.jpg'); 
+    background-color: #cccccc;
+    height: 100vh; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+
+.layer{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    position: relative;
+}
+
+/* .logo{
+    width: 180px;
+    height: 120px;
+} */
+.name{
+    color: white;
+    font-family: 'Rubik Glitch', cursive;
+    font-size: 75PX;
+    padding: 30PX;
+    /* text-decoration: underline; */
+
+}
+.text{
+    color: white;
+    position: absolute;
+  left:5%;
+  top:35%;
+  width: 350px;
+  text-align: left;
+}
+
+.head{
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.sub{
+    font-size: 15px;
+    margin: 25px 0px;
+}
+
+.explore{
+    width: 100px;
+    height: 35px;
+    background-color: burlywood;
+    color: black;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.explore:hover{
+    background-color: transparent;
+    color: rgb(194, 192, 192);
+    border:1px solid rgb(223, 188, 188);
+
+}
